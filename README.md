@@ -4,8 +4,9 @@ An application for the student clubs of the Institute of Technology of
 Cambodia. Course project, Introduction to Software Engineering.
 
 ## Team
-| Member          | GitHub       | Role (Sprint 1) |
-| Ung Phearakleap | @phearakleap | Product Owner   |
+| Member          | GitHub            | Role (Sprint 1) |
+| Ung Phearakleap | @phearakleap      | Product Owner   |
+| Kouch Souyheng  | @kouchsouyheng-88 | Developer       |
 
 ## Repository layout
 | Path                  | Content                                |
