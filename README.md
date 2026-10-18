@@ -9,6 +9,7 @@ Cambodia. Course project, Introduction to Software Engineering.
 | Ung Phearakleap | @phearakleap      | Product Owner   |
 | Kouch Souyheng  | @kouchsouyheng-88 | Developer       |
 | Yam Soksopheakna| @YamSoksopheakna  | Developer       |
+| Buntong Anupheap| @anupheap         | Scrum Master    |
 
 ## Repository layout
 | Path                  | Content                                |
