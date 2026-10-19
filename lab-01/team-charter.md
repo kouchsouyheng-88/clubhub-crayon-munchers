@@ -40,4 +40,4 @@ The Product Owner stays the same all semester.
 - Kouch Souyheng, 17/10/2026
 - Yam Soksopheakna, 17/10/2026
 - Buntong Anupheap, 19/10/2026
--
+- Ou Pechly, 19/10/2026
