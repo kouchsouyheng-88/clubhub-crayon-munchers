@@ -32,8 +32,10 @@ flowchart TD
 | R3 | Lack of Situational Awareness at FE          | process | invisibility | FE operators can't check on the status of the software and tranmission grids when the UI froze. |
 
 ## 5. Practices that would have prevented or limited it
-| Root cause | Practice | Chapter |
-|------------|----------|---------|
+| Root cause                                 | Practice                                 | Chapter |
+|EMS Software Failure                        |  Deploy automated application health  and fix software bug check               |         |
+|Inadequate vegetation (Trees) management    | Trimming trees in proper way and have regular trimming schedule                         |---------|
+|Lack of Situational Awareness at FE         | Backup wall map and require discussion between IT and operators
 
 ## 6. Lessons for ITC Club Hub
 1.
