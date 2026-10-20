@@ -1,7 +1,7 @@
 # Failure case analysis · Northeast Blackout, 2003 (v1.0, 2026-10-16)
 Authors:
 - 
--  
+- Yam Soksopheakna - What failed
 - Ung Phearakleap - Root Causes
 - Kouch Souyheng - Practices
 - 
@@ -14,13 +14,13 @@ Authors:
 |------|-------|
 
 ## 3. What failed
-<one paragraph>
+In Ohio, FirstEnergy failed to recognize weaknesses in its power system, and its alarm software stopped working without operators noticing. Several transmission lines then failed, destabilizing the power grid and causing the blackout to spread. The main contributing factors were a poor understanding of the system, a lack of awareness, and poor coordination and response.
 
 ```mermaid
 flowchart TD
-  A["root cause"] --> B["..."]
-  B --> C["..."]
-  C --> D["..."]
+  A["root cause"] --> B["FirstEnergy failed to recognize system problems"]
+  B --> C["Alarm software stopped without operators knowing"]
+  C --> D["Operators missed warnings and transmission lines failed"]
   D --> E["impact"]
 ```
 
@@ -29,7 +29,7 @@ flowchart TD
 |---|------------|------|----------------------|-----|
 | R1 | EMS Software Failure          | technical | complexity | The scale of the code was too large to the point an overflow occured, freezing the alarm processor loop. |
 | R2 | Inadequate vegetation (Trees) management          | process | conformity | The power infrastructure had to conform to a harsh environment with unkept trees and heat that causes the lines to sag. |
-| R3 | Lack of Situational Awareness at FE          | process | invisibility | FE operators can't check on the status of the software and tranmission grids when the UI froze. |
+| R3 | Lack of Situational Awareness at FE          | process | invisibility | FE operators can't check on the status of the software and transmission grids when the UI froze. |
 
 ## 5. Practices that would have prevented or limited it
 | Root cause | Practice | Chapter |
