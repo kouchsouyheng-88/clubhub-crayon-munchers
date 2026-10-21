@@ -10,6 +10,17 @@ Authors:
 ## 1. Context
 The 2003 Northeast blackout (U.S. and Canada) was investigated by a joint Task Force co-chaired by the U.S. Energy Secretary and Canada’s Natural Resources Minister. It hit part of the Eastern Interconnection, a single grid where power can’t be stored and flows by physics, and which must stay secure if any one major element fails (the N-1 rule). About 50 million people lost power, for up to 4 days in parts of the U.S., at a U.S. cost of roughly $4-10 billion. It matters because it was preventable; FirstEnergy’s poor voltage planning, failed alarm systems and untrimmed trees, plus weak coordination and unenforceable standards, turned a manageable problem into a massive cascade.
 ## 2. Timeline
+<<<<<<< HEAD
+| Date/Time        | Event                                                                                                                                |
+|----------------- |--------------------------------------------------------------------------------------------------------------------------------------|
+|13:31             | Eastlake 5 tripped at 13:31:34.                                                                                                      |
+|14:14 to 15:59    | FirstEnergy’s alarm and computer systems fail, leaving operators unaware of the problem.                                             |
+|15:05 to 15:41    | The Harding-Chamberlin line tripped at 15:05:41, Hanna-Juniper at 15:32:03 and Star-South Canton at 15:41:35, all from tree contact. |
+|15:39 to 16:08    | Sixteen 138-kV lines eventually failed.                                                                                              |
+|16:05:57          | Sammis-Star 345-kV line trips, triggering the cascade.                                                                               |
+|16:10:46 to 16:12 | The grid broke into islands. The last step listed, Ontario-eastern Michigan lines separating, was at 16:11:57.                       |
+|----------------- |--------------------------------------------------------------------------------------------------------------------------------------| 
+=======
 | Date/Time       | Event                                                                                                                                |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------|
 |13:31            | Eastlake 5 tripped at 13:31:34.                                                                                                      |
@@ -19,6 +30,7 @@ The 2003 Northeast blackout (U.S. and Canada) was investigated by a joint Task F
 |16:05:57         | Sammis-Star 345-kV line trips, triggering the cascade.                                                                               |
 |16:10:46 to 16:12| The grid broke into islands. The last step listed, Ontario-eastern Michigan lines separating, was at 16:11:57.                       |
 
+>>>>>>> ccf08c8f0affc317c237b54b8bee5249d0f7ed8c
 
 ## 3. What failed
 In Ohio, FirstEnergy failed to recognize weaknesses in its power system, and its alarm software stopped working without operators noticing. Several transmission lines then failed, destabilizing the power grid and causing the blackout to spread. The main contributing factors were a poor understanding of the system, a lack of awareness, and poor coordination and response.
