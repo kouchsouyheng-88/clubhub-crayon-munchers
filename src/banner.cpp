@@ -7,8 +7,10 @@ namespace clubhub {
 string banner(string_view teamName) {
     const string rule(40, '=');
     string out;
-    // TODO: rule, "  ITC Club Hub  v" CLUBHUB_VERSION, "  Team: " + teamName,
-    //       rule; every line ends in '\n'
+    out += rule + "\n";
+    out += "  ITC Club Hub  v" + string("CLUBHUB_VERSION") + '\n';
+    out += "  Team: " + string(teamName) + '\n'; 
+    out += rule + "\n";
     (void)teamName;
     return out;
 }
