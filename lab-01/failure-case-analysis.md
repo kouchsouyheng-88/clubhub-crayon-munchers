@@ -32,14 +32,18 @@ flowchart TD
 | R3 | Lack of Situational Awareness at FE          | process | invisibility | FE operators can't check on the status of the software and transmission grids when the UI froze. |
 
 ## 5. Practices that would have prevented or limited it
-| Root cause                                 | Practice                                 | Chapter |
+| Root cause      | Practice                        | Chapter |
+|-----------------|---------------------------------|---------|
 |EMS Software Failure                        |  Deploy automated application health  and fix software bug check               |         |
 |Inadequate vegetation (Trees) management    | Trimming trees in proper way and have regular trimming schedule                         |---------|
 |Lack of Situational Awareness at FE         | Backup wall map and require discussion between IT and operators
 
 ## 6. Lessons for ITC Club Hub
-1.
-2.
+1. Monitor system health: Implement automated monitoring to detect server errors, software crashes, and database failures before they affect users.
+2. Improve error handling: Test the system regularly, fix software bugs, and prevent a single failure from crashing the entire application.
+3. Maintain situational awareness: Provide administrators with a dashboard showing system status, errors, and service availability.
+4. Prepare backup and recovery plans: Maintain regular database backups and recovery procedures to minimize data loss and downtime.
+5. Improve team communication: Ensure developers, administrators, and other team members communicate quickly when problems occur.
 
 ## 7. Sources
 1. U.S.-Canada Power System Outage Task Force, Final Report on the August 14, 2003 Blackout in the United States and Canada: Causes and Recommendations, 2003, https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf> (primary)
