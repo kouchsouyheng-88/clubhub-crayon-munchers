@@ -19,4 +19,5 @@ endif()
 
 # Executable: the command-line front end
 add_executable(clubhub src/main.cpp)
+target_include_directories(clubhub PRIVATE ${CMAKE_CURRENT_SOURCE_DIR}/include)
 target_link_libraries(clubhub PRIVATE clubhub_core)
