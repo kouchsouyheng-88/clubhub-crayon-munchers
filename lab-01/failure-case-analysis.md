@@ -8,7 +8,7 @@ Authors:
 
 
 ## 1. Context
-
+The 2003 Northeast blackout (U.S. and Canada) was investigated by a joint Task Force co-chaired by the U.S. Energy Secretary and Canada’s Natural Resources Minister. It hit part of the Eastern Interconnection, a single grid where power can’t be stored and flows by physics, and which must stay secure if any one major element fails (the N-1 rule). About 50 million people lost power, for up to 4 days in parts of the U.S., at a U.S. cost of roughly $4-10 billion. It matters because it was preventable; FirstEnergy’s poor voltage planning, failed alarm systems and untrimmed trees, plus weak coordination and unenforceable standards, turned a manageable problem into a massive cascade.
 ## 2. Timeline
 | Date | Event |
 |------|-------|
