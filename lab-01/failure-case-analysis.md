@@ -1,6 +1,6 @@
 # Failure case analysis · Northeast Blackout, 2003 (v1.0, 2026-10-16)
 Authors:
-- 
+- Ou Pechly - Context and Timeline
 - Yam Soksopheakna - What failed
 - Ung Phearakleap - Root Causes
 - Kouch Souyheng - Practices
