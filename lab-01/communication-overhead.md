@@ -11,3 +11,4 @@ any corrections in GitHub Issues.
 - I have other work and responsibilities, so my time is limited. I’ll take smaller tasks and ask teammates when Club Hub’s rules get confusing. Anupheap
 - Much like pheap, I too will be more busy than usual juggling a variety tasks around. I'll try to allocate the appropriate tasks to this project's members as best as I can. Ung Phearakleap
 - Despite being able to submit successfully as a team, there were a few difficulties with communication since everyone has other duties to complete. Ou Pechly
+- I have had a difficult time with some of git commands, so I need to spend more time reasearching on those error commands. For communication, I have the same idea as Pechly. Kouch Souyheng
