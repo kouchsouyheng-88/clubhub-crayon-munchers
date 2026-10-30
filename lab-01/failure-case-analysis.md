@@ -18,8 +18,7 @@ The 2003 Northeast blackout (U.S. and Canada) was investigated by a joint Task F
 |15:05 to 15:41    | The Harding-Chamberlin line tripped at 15:05:41, Hanna-Juniper at 15:32:03 and Star-South Canton at 15:41:35, all from tree contact. |
 |15:39 to 16:08    | Sixteen 138-kV lines eventually failed.                                                                                              |
 |16:05:57          | Sammis-Star 345-kV line trips, triggering the cascade.                                                                               |
-|16:10:46 to 16:12 | The grid broke into islands. The last step listed, Ontario-eastern Michigan lines separating, was at 16:11:57.                       |
-|----------------- |--------------------------------------------------------------------------------------------------------------------------------------| 
+|16:10:46 to 16:12 | The grid broke into islands. The last step listed, Ontario-eastern Michigan lines separating, was at 16:11:57.                       | 
 
 ## 3. What failed
 In Ohio, FirstEnergy failed to recognize weaknesses in its power system, and its alarm software stopped working without operators noticing. Several transmission lines then failed, destabilizing the power grid and causing the blackout to spread. The main contributing factors were a poor understanding of the system, a lack of awareness, and poor coordination and response.
