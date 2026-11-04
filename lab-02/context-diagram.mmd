@@ -1,0 +1,31 @@
+%%{init: {"theme": "base", "fontFamily": "Arial", "markdownAutoWrap": false, "themeCSS": "text, span, p { font-family: Arial !important; }", "themeVariables": {"fontFamily": "Arial", "fontSize": "16px", "lineColor": "#475569", "primaryTextColor": "#0f172a", "edgeLabelBackground": "#ffffff"}, "flowchart": {"curve": "basis", "nodeSpacing": 60, "rankSpacing": 110}}}%%
+flowchart LR
+    %% Club Hub is a single black box; all other nodes are outside it.
+    S([Student])
+    CL([Club leader])
+    O([Organiser])
+    A([Administrator])
+    CH[ITC Club Hub]
+    MAIL[[E-mail service]]
+    DIR[[ITC student directory]]
+
+    S -->|"event search, registration, cancellation"| CH
+    CH -->|"event list, registration status"| S
+    CL -->|"`club registration, event details`"| CH
+    CH -->|"`approval or rejection, participant list`"| CL
+    O -->|"check-in scans"| CH
+    CH -->|"attendance list, check-in results"| O
+    A -->|"club approval or rejection, report period"| CH
+    CH -->|"pending club requests, monthly report"| A
+    CH -->|"confirmation,<br/>reminder request"| MAIL
+    MAIL -->|"confirmation,<br/>reminder e-mail"| S
+    MAIL -->|"delivery status"| CH
+    CH -->|"student ID lookup"| DIR
+    DIR -->|"name, e-mail, exists or not"| CH
+
+    classDef hub fill:#dbeafe,stroke:#1e3a8a,stroke-width:3px,color:#0f172a;
+    classDef human fill:#f8fafc,stroke:#64748b,color:#0f172a;
+    classDef external fill:#fff7ed,stroke:#c2410c,color:#0f172a;
+    class CH hub;
+    class S,CL,O,A human;
+    class MAIL,DIR external;
