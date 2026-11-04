@@ -74,15 +74,15 @@ Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): __
 
 
 
-## QAS-06 · Portability · written by __
+## QAS-06 · Portability · written by Ung Phearakleap
 | Part             | Content            |
 |------------------|--------------------|
-| Source           |                    |
-| Stimulus         |                    |
-| Environment      |                    |
-| Artifact         |                    |
-| Response         |                    |
-| Response measure |                    |
+| Source | A student, an organiser or an administrator |
+| Stimulus | Opens Club Hub on a device different from the developers' own |
+| Environment | Android 10 or newer with Chrome, iPhone with iOS 16.4 or newer with Safari, desktop Windows with Chrome or Firefox |
+| Artifact | PWA (front end), C++ core library (build) |
+| Response | Same features work on every supported platform, the PWA can be installed on Android and iPhone, and the C++ core builds with the same CMake file on three compilers |
+| Response measure | 100% of the 12 acceptance test cases pass on the 4 platform combinations (Android Chrome, iPhone Safari, desktop Chrome, desktop Edge) before each release |
 
 
 

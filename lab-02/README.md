@@ -68,3 +68,4 @@ grep -rn "iostream\|cout\|ifstream" include/ src/event*.cpp
 | 2026-11-2 | 1.0 | Completed Task 5 except from the README | Ung Phearakleap |
 | 2026-11-4 | 1.0 | Completed the first quality scenarios | Kouch Souyheng |
 | 2026-11-4 | 1.0 | Added the README | Ung Phearakleap |
+| 2026-11-4 | 1.0 | Completed QAS 6 | Ung Phearakleap |
