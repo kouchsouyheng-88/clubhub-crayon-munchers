@@ -1,0 +1,41 @@
+%%{init: {"theme": "base", "fontFamily": "Arial", "themeCSS": "text, span, p { font-family: Arial !important; }", "themeVariables": {"fontFamily": "Arial", "fontSize": "16px", "lineColor": "#475569", "primaryTextColor": "#0f172a", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f8fafc", "clusterBorder": "#94a3b8"}, "flowchart": {"curve": "basis", "nodeSpacing": 45, "rankSpacing": 65}}}%%
+flowchart TB
+    %% Green = C++ semester scope; blue = semester data files.
+    %% Grey dashed = modelled / future; solid links = semester calls / file I/O.
+    subgraph P[Presentation]
+        direction LR
+        PWA["One PWA (modelled only; ADR-001)<br/>Mobile: students, club leaders, organisers<br/>Desktop: administrators; printable reports<br/>Offline queue: IndexedDB + sync worker"]
+        CLI["C++ CLI<br/>src/cli/<br/>(C++ semester scope)"]
+    end
+
+    subgraph L[Logic]
+        RS["RegistrationService<br/>include/clubhub/, src/<br/>(C++ semester scope)"]
+        ES["EventService<br/>include/clubhub/, src/<br/>(C++ semester scope)"]
+    end
+
+    subgraph D[Data]
+        REPO["CSV repositories / file adapters<br/>include/clubhub/, src/<br/>(C++ semester scope)"]
+        CSV[("CSV files<br/>data/<br/>(semester storage)")]
+        DB[("Database later<br/>(modelled / future)")]
+    end
+
+    MAIL[["E-mail service<br/>(modelled integration)"]]
+    DIR[["ITC student directory<br/>(modelled integration)"]]
+
+    CLI -->|"direct C++ calls:<br/>registration, events,<br/>attendance, reports"| L
+    PWA -.->|"modelled HTTP API / JSON:<br/>events, registration, check-ins,<br/>club approvals, reports"| L
+    RS <-->|"registrations, attendance"| REPO
+    ES <-->|"clubs, events, report records"| REPO
+    REPO <-->|"CSV rows"| CSV
+    REPO -.->|"future repository implementation"| DB
+    RS -.->|"confirmation request"| MAIL
+    ES -.->|"reminder request"| MAIL
+    RS -.->|"student ID lookup"| DIR
+    DIR -.->|"name, e-mail, exists or not"| RS
+
+    classDef built fill:#d1e7dd,stroke:#198754,stroke-width:2px,color:#0f172a;
+    classDef storage fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#0f172a;
+    classDef modelled fill:#f1f5f9,stroke:#64748b,stroke-dasharray:6 4,color:#0f172a;
+    class CLI,RS,ES,REPO built;
+    class CSV storage;
+    class PWA,DB,MAIL,DIR modelled;

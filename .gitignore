@@ -19,6 +19,7 @@ Testing/
 *.pdb
 # editors and operating systems
 .vs/
+.vscode/
 .idea/
 *.swp
 .DS_Store
