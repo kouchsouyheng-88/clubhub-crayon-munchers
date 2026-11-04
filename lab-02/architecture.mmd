@@ -7,25 +7,7 @@ flowchart TB
         PWA["One PWA (modelled only; ADR-001)<br/>Mobile: students, club leaders, organisers<br/>Desktop: administrators; printable reports<br/>Offline queue: IndexedDB + sync worker"]
         CLI["C++ CLI<br/>src/cli/<br/>(C++ semester scope)"]
     end
-## QAS-06 · Portability · written by YOUR NAME
 
-| Part             | Content |
-|------------------|---------|
-| Source           | A student, organiser or administrator using a different browser or device |
-| Stimulus         | Opens the Club Hub PWA to register for an event, check students in, or print the monthly report |
-| Environment      | Students and organisers on Android and iPhone phones (mobile data, or weak Wi-Fi at the door); administrators on desktop PCs with office Wi-Fi; browsers: latest 2 versions of Chrome and Safari on phones, Chrome and Edge on desktop (team's choice) |
-| Artifact         | The Club Hub PWA (one web codebase for phone and desktop) |
-| Response         | Registration, installation to the home screen, offline check-in and the print-friendly report work the same way on every listed browser; where push is not supported, the reminder is sent by e-mail |
-| Response measure | 100% of 12 checklist test cases pass on each listed browser and device; 0 separate code bases needed; checked manually before each release |## QAS-06 · Portability · written by YOUR NAME
-
-| Part             | Content |
-|------------------|---------|
-| Source           | A student, organiser or administrator using a different browser or device |
-| Stimulus         | Opens the Club Hub PWA to register for an event, check students in, or print the monthly report |
-| Environment      | Students and organisers on Android and iPhone phones (mobile data, or weak Wi-Fi at the door); administrators on desktop PCs with office Wi-Fi; browsers: latest 2 versions of Chrome and Safari on phones, Chrome and Edge on desktop (team's choice) |
-| Artifact         | The Club Hub PWA (one web codebase for phone and desktop) |
-| Response         | Registration, installation to the home screen, offline check-in and the print-friendly report work the same way on every listed browser; where push is not supported, the reminder is sent by e-mail |
-| Response measure | 100% of 12 checklist test cases pass on each listed browser and device; 0 separate code bases needed; checked manually before each release |
     subgraph L[Logic]
         RS["RegistrationService<br/>include/clubhub/, src/<br/>(C++ semester scope)"]
         ES["EventService<br/>include/clubhub/, src/<br/>(C++ semester scope)"]
