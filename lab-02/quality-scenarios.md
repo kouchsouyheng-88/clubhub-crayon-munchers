@@ -4,12 +4,12 @@ Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): __
 ## QAS-01 · Availability · written by __
 | Part             | Content            |
 |------------------|--------------------|
-| Source           |                    |
-| Stimulus         |                    |
-| Environment      |                    |
-| Artifact         |                    |
-| Response         |                    |
-| Response measure |                    |
+| Source           |   system administrator |
+| Stimulus         |   the server goes offline for an update|
+| Environment      |   weekday 2:00 AM when few users are online, with about 3000 students registered      |
+| Artifact         |   the server and application     |
+| Response         |   it shows "under maintenance" message to students if they were online; the server restart after update            |
+| Response measure |   server will be back in 10 minutes; monthly availability >= 99.5%(30 d * 24 h * 0.5% = 3.6 h downtime allowed)                |
 
 
 
