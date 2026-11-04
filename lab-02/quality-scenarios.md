@@ -1,7 +1,7 @@
 # Lab-02 · Quality attribute scenarios for ITC Club Hub
 Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): __
 
-## QAS-01 · Availability · written by __
+## QAS-01 · Availability · written by Kouch Souyheng
 | Part             | Content            |
 |------------------|--------------------|
 | Source           |   system administrator |
