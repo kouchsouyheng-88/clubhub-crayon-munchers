@@ -1,5 +1,5 @@
 # Lab-02 · Quality attribute scenarios for ITC Club Hub
-Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): __
+Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): Buntong Anupheap
 
 ## QAS-01 · Availability · written by Kouch Souyheng
 | Part             | Content            |
@@ -46,15 +46,15 @@ Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): __
 
 
 
-## QAS-04 · Security · written by
+## QAS-04 · Security · written by Buntong Anupheap
 | Part             | Content            |
 |------------------|--------------------|
-| Source           |                    |
-| Stimulus         |                    |
-| Environment      |                    |
-| Artifact         |                    |
-| Response         |                    |
-| Response measure |                    |
+| Source           | A logged-in student without organizer or administrator permissions |
+| Stimulus         | The student attempts to change an event's attendance records by sending a request directly to the system. |
+| Environment      | During normal operation, while the student has a valid account and an active session. |
+| Artifact         | Attendance records and the server's access-control mechanism |
+| Response         | The system checks the student's permissions, rejects the request, leaves attendance records unchanged, and logs the unauthorized attempt. |
+| Response measure | 100% of unauthorized attendance-change requests in security tests are rejected; zero attendance records are changed; each rejected attempt is logged within 5 seconds. |
 
 
 
