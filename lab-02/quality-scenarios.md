@@ -61,15 +61,15 @@ Version 1.0 · 2026-__-__ · Reviewed by (Scrum Master): __
 
 
 
-## QAS-05 · Modifiability · written by
+## QAS-05 · Modifiability · written by Ou Pechly
 | Part             | Content            |
 |------------------|--------------------|
-| Source           |                    |
-| Stimulus         |                    |
-| Environment      |                    |
-| Artifact         |                    |
-| Response         |                    |
-| Response measure |                    |
+| Source           | A club organizer asks the developers for a new rule |
+| Stimulus         | Change the cancellation deadline from 24 hours to 12 hours before the event starts |
+| Environment      | During development in the semester (15 weeks), with the existing code base and tests; team of 4 developers |
+| Artifact         | The Club Hub business rule |
+| Response         | A developer changes the rule in one place, runs the existing tests, and no other module needs editing |
+| Response measure | At most 2 files changed; 100% of existing tests will pass |
 
 
 
