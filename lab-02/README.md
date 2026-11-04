@@ -66,7 +66,7 @@ grep -rn "iostream\|cout\|ifstream" include/ src/event*.cpp
 | 2026-11-2 | 1.0 | Completed TODOs event.cpp and event.hpp | Ung Phearakleap |
 | 2026-11-2 | 1.0 | Completed TODOs event_csv.cpp and event_csv.hpp | Kouch Souyheng |
 | 2026-11-2 | 1.0 | Completed Task 5 except from the README | Ung Phearakleap |
-| 2026-11-4 | 1.0 | Added quality scenarios | Yam Soksopheakna |
+| 2026-11-4 | 1.0 | Completed QAS2, QAS3 and Priorities | Yam Soksopheakna |
 | 2026-11-4 | 1.0 | Completed the first quality scenarios | Kouch Souyheng |
 | 2026-11-4 | 1.0 | Added the README | Ung Phearakleap |
 | 2026-11-4 | 1.0 | Completed QAS 6 | Ung Phearakleap |
