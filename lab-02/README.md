@@ -72,3 +72,4 @@ grep -rn "iostream\|cout\|ifstream" include/ src/event*.cpp
 | 2026-11-4 | 1.0 | Completed QAS 6 | Ung Phearakleap |
 | 2026-11-4 | 1.0 | Completed QAS 5 | Ou Pechly |
 | 2026-11-4 | 1.0 | Completed one app classification (ABS System) | Ung Phearakleap |
+| 2026-11-4 | 1.0 | Completed one app classification (Moodle ITC) | Buntong Anupheap |
