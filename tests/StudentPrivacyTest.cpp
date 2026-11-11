@@ -18,8 +18,17 @@ TEST(StudentPrivacy, RedactedHidesPersonalData) {
     EXPECT_EQ(r.find("345"), std::string::npos);
 }
 
-TEST(StudentPrivacy, OptionalConsentsStartOff) { /* TODO */ }
-TEST(StudentPrivacy, WithdrawingSmsConsentErasesPhone) { /* TODO */ }
+TEST(StudentPrivacy, OptionalConsentsStartOff) { 
+    /* TODO */
+    Student s{"e20990417", "Test Student", "test@example.edu"};
+    EXPECT_FALSE(s.phone().has_value());
+    EXPECT_FALSE(s.remindersByEmail());   
+ }
+
+TEST(StudentPrivacy, WithdrawingSmsConsentErasesPhone) { 
+    /* TODO */
+
+ }
 
 TEST(StudentPrivacy, RejectsEmailWithoutAt) {
     EXPECT_THROW((Student{"e20990417", "A", "no-at-sign"}),
