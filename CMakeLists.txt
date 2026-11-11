@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Library: all code except main(); later labs link tests to it
-add_library(clubhub_core src/banner.cpp src/event.cpp src/event_csv.cpp)
+add_library(clubhub_core src/banner.cpp src/event.cpp src/event_csv.cpp src/Student.cpp)
 target_include_directories(clubhub_core PUBLIC include)
 target_compile_definitions(clubhub_core
     PRIVATE CLUBHUB_VERSION="${PROJECT_VERSION}")
