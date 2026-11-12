@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # Library: all code except main(); later labs link tests to it
-add_library(clubhub_core src/banner.cpp src/event.cpp src/event_csv.cpp src/Student.cpp)
+add_library(clubhub_core src/banner.cpp src/event.cpp src/event_csv.cpp src/Student.cpp src/ConsoleOutputTest.cpp)
 target_include_directories(clubhub_core PUBLIC include)
 target_compile_definitions(clubhub_core
     PRIVATE CLUBHUB_VERSION="${PROJECT_VERSION}")
@@ -32,7 +32,8 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 add_executable(clubhub_tests
-    tests/StudentPrivacyTest.cpp)
+    tests/StudentPrivacyTest.cpp
+    tests/ConsoleOutputTest.cpp)
 target_link_libraries(clubhub_tests PRIVATE clubhub_core GTest::gtest_main)
 include(GoogleTest)
 gtest_discover_tests(clubhub_tests)

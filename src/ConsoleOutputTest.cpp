@@ -1,4 +1,4 @@
-#include "clubhub/ConsoleOutput.h"
+#include "clubhub/ConsoleOutputTest.h"
 #include <cstdlib>
 
 namespace clubhub {
