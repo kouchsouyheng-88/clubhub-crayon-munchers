@@ -40,7 +40,7 @@ private:
     // TODO: add a member ONLY if it has a Keep row in the inventory
 };
 
-// "e20990417" -> "e2******7"; 3 characters or fewer -> all '*'
-std::string maskId(std::string_view id);      // TODO
+// "e20990417" -> "e2******7"; 3 characters or fewer -> all '*
+std::string maskId(std::string_view id);
 
 }  // namespace clubhub

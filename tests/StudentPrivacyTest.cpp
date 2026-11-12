@@ -27,7 +27,11 @@ TEST(StudentPrivacy, OptionalConsentsStartOff) {
 
 TEST(StudentPrivacy, WithdrawingSmsConsentErasesPhone) { 
     /* TODO */
-
+    Student s{"e20990417", "Test Student", "test@example.edu"};
+    s.giveSmsConsent("012 345 678");
+    EXPECT_TRUE(s.phone().has_value());
+    s.withdrawSmsConsent();
+    EXPECT_FALSE(s.phone().has_value());
  }
 
 TEST(StudentPrivacy, RejectsEmailWithoutAt) {
@@ -35,5 +39,15 @@ TEST(StudentPrivacy, RejectsEmailWithoutAt) {
                  std::invalid_argument);
 }
 
-TEST(StudentPrivacy, RejectsPhoneWithLetters) { /* TODO */ }
-TEST(StudentPrivacy, MaskIdHidesShortIdsCompletely) { /* TODO */ }
+TEST(StudentPrivacy, RejectsPhoneWithLetters) { 
+    /* TODO */ 
+    Student s{"e20990417", "Test Student", "test@example.edu"};
+    EXPECT_THROW(s.giveSmsConsent("012 abc "), std::invalid_argument);
+    EXPECT_FALSE(s.phone().has_value());
+
+}
+TEST(StudentPrivacy, MaskIdHidesShortIdsCompletely) { 
+    /* TODO */
+    EXPECT_EQ(clubhub::maskId("e20"),"***");
+    EXPECT_EQ(clubhub::maskId("e20990417"), "e2******7");
+ }
