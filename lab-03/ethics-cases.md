@@ -1,19 +1,20 @@
 # Ethics case analyses · ITC Club Hub
-Version 1.0 · 2026-11-12 · Leads: A = <name>, B = Ou Pechly
+Version 1.0 · 2026-11-12 · Leads: A = Yam Soksopheakna, B = Ou Pechly
 
 ## Scenario A: "Just a small report"
 | Step | Analysis |
 |------|----------|
-| 1 Facts | TODO (and what we still need to find out) |
-| 2 Stakeholders and harms | TODO |
-| 3 Codes, law, policy | SE Code principle TODO; ACM TODO; GDPR TODO |
-| 4 Options | (a) TODO (b) TODO (c) TODO |
-| 5 Tests | harm / rights / fairness / publicity for each option |
-| 6 Decision and action | TODO |
-| 7 Reflection | TODO |
+| 1 Facts | The Robotics Club leader wants a list of students who attended other clubs’ events for recruitment. However, attendance data was collected for event management and reporting, not recruitment. We still need to find out: whether the privacy notice allows sharing this data, whether the administrator has approved it, and whether students have been informed or given permission. |
+| 2 Stakeholders and harms | Students: Their attendance information may be shared without their knowledge. They may feel uncomfortable or lose trust in the system. Robotics Club leader: Needs a way to find interested members but may misuse private information. Other club leaders: Their members' information could be shared with another club. Administrator / Clubs Office: Responsible for protecting student information and following the privacy policy. Development team: Must protect users' privacy and use data responsibly. |
+| 3 Codes, law, policy | SE Code 3.10 and 6.08 (testing and correcting errors), and 6.12 (reporting concerns). ACM 1.3 (honesty) and 2.5 (evaluating risks). GDPR Art. 5(1)(d) (ensuring data accuracy). |
+| 4 Options | (a) Give the Robotics Club leader the full report with students' names and attendance records. (b) Refuse to share individual attendance information and ask the administrator to review the request. (c) Do not share individual information. Instead, advertise Robotics Club events through the normal event list so all students can choose to join. |
+| 5 Tests | (a): Harm: Students may lose privacy and trust. Rights: Students may not know their information is being shared. Fairness: Other clubs' members are exposed to targeted recruitment without equal control. Publicity: Students may be unhappy if they discover their attendance records were shared without permission. Option (b): Harm: Protects students from unnecessary disclosure. Rights: Respects their privacy. Fairness: Applies the same rule to every club. Publicity: The decision can be explained openly. Option (c): Harm: Avoids exposing private attendance records. Rights: Students keep control over whether they join. Fairness: Every student can see the same public event information. Publicity: This is easy to explain and defend publicly. |
+| 6 Decision and action | I choose option (c). I will not give the Robotics Club leader a report containing individual students' names or attendance records. I will suggest using the normal event list to advertise recruitment activities. I will also inform the administrator about the request and ask for clarification before allowing any future use of attendance data for recruitment. If an aggregate report is needed, it must not identify individual students. |
+| 7 Reflection | This situation reminds me that information collected for one purpose should not automatically be used for another purpose. Even a small report can affect students' privacy and trust. In the future, I should check the privacy notice, ask for proper approval, and consider students' rights before sharing personal information. |
 
-**Message sent:** TODO (max. 120 words)
-**Preventive change:** TODO, issue #TODO
+**Message sent:** 
+Thank you for your interest in recruiting students for the Robotics Club. Our system is used to track attendance for managing events and preparing activity reports. It is not meant to share students attendance records with other clubs. To protect student privacy I cannot provide a report that includes names or detailed attendance history. I recommend promoting Robotics Club activities through the event list so that all students can see the opportunities and choose whether to join. If you need a summary report, without information I can talk to the administrator about your request first.
+**Preventive change:** Add role-based access control so club leaders can only view information about their own clubs and events. Block access to individual attendance records from other clubs. Add a permission check and tests to ensure cross-club attendance data cannot be viewed by unauthorized users. Issue #TODO, label `ethics`.
 
 ## Scenario B: "Don't mention it in the demo"
 
