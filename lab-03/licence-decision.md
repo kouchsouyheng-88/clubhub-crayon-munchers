@@ -1,5 +1,5 @@
 # Licence decision · ITC Club Hub
-Version 1.0 · 2026-11-12 · Lead: Crayon Munchers
+Version 1.0 · 2026-11-12 · Lead: Buntong Anupheap
 
 | Criterion | MIT | Apache-2.0 | GPL-3.0 |
 |-----------|-----|------------|---------|
@@ -10,20 +10,17 @@ Version 1.0 · 2026-11-12 · Lead: Crayon Munchers
 | Simple for future student teams | Very short and easy to apply | Permissive, but longer and requires change notices | Longer copyleft terms and distribution obligations need more care |
 | Instructor or institute requirement | No requirement recorded in this repository | No requirement recorded in this repository | No requirement recorded in this repository |
 
-**Decision:** MIT, selected by the requester on 2026-11-12. Each contributor's agreement remains pending; do not treat this record as their approval.
-
+**Decision:** MIT, selected by the requester on 12/11/2026.
 **Rationale:** MIT matches the team's stated goal of the widest practical adoption with a licence that future student teams can understand and reuse easily. It allows individuals, universities and companies to use, change and redistribute the code while preserving the copyright and licence notice. Apache-2.0 also allows broad reuse and adds an explicit patent grant, but its extra conditions add work the team has not identified a need for. GPL-3.0 would require covered distributed modifications to remain under GPL-3.0, which may reduce adoption by teams that need different distribution terms. GoogleTest's BSD-3-Clause licence is compatible with MIT, and its separate notice is retained.
 
 ## Member responses
 
-- Each contributor must record their own agreement and date. A blank row is **not** consent.
-
-| Member | Agrees to MIT? | Date |
+| Member | Agrees to MIT | Date |
 |--------|----------------|------|
 | Ung Phearakleap | Pending | — |
 | Kouch Souyheng | Pending | — |
 | Yam Soksopheakna | Pending | — |
-| Buntong Anupheap | Pending | — |
+| Buntong Anupheap | Yay | 12/11/2026 |
 | Ou Pechly | Pending | — |
 
 ## Sources checked
