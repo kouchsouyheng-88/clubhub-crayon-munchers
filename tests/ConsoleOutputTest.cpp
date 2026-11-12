@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Crayon Munchers, ITC Club Hub contributors
+
 #include "clubhub/ConsoleOutputTest.h"
 
 #include <gtest/gtest.h>

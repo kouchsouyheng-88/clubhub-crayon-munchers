@@ -1,5 +1,7 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Crayon Munchers, ITC Club Hub contributors
+
 // include/clubhub/ConsoleOutput.h
-// SPDX-License-Identifier: <your licence>
 #ifndef CONSOLEOUTPUT_H
 #define CONSOLEOUTPUT_H
 

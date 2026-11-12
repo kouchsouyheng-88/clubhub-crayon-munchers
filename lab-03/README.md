@@ -11,6 +11,8 @@
 | tests/StudentPrivacyTest.cpp
 | CMakeLists.txt | 2 | changed (added library src/Student.cpp, src/ConsoleTest.cpp, GoogleTest), tests |  | 2 | new |
 | LICENSE | 3 | new |
+| lab-03/licence-decision.md | 3 | new |
+| lab-03/ai-feature-proposal.md | AI proposal | new |
 | src/ConsoleOutputTest.cpp| 4 | new |
 | ethics-cases.md | 5 | new |
 | README.md | 5 | new |

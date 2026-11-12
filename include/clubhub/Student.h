@@ -1,5 +1,7 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Crayon Munchers, ITC Club Hub contributors
+
 // include/clubhub/Student.h
-// SPDX-License-Identifier: MIT 
 #pragma once
 
 #include <optional>
@@ -8,7 +10,7 @@
 
 namespace clubhub {
 
-// Stores only the fields allowed by lab03/data-inventory.md.
+// Stores only the fields allowed by lab-03/data-inventory.md.
 class Student {
 public:
     // Throws std::invalid_argument for an empty id or name,

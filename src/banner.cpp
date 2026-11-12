@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Crayon Munchers, ITC Club Hub contributors
+
 // src/banner.cpp
 #include "clubhub/banner.hpp"
 using namespace std;
