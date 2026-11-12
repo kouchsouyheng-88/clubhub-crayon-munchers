@@ -26,7 +26,11 @@
 ## Change log
 | Date | Change | Author |
 |------|--------|--------|
-| 2026-11-10 | Lab-03: inventory, notice, Student, licence, a11y, ethics | team Crayon Munchers |
+| 2026-11-10 | Lab-03: inventory, notice, Student, licence, a11y, ethics, AI proposal | team Crayon Munchers |
 
 ## Open questions for the client
-- TODO
+- How long should the clubs office keep a student's information (ID, name, email) after graduation: 6 months, 1 year, or until the student asks us to delete it?
+- Should club leaders ever see which students attended other clubs' events?
+- Should a cancellation inside the 24-hour window be blocked, or allowed with a warning?
+- Is the SMS reminder required in the first release, or optional?
+- Is it acceptable to delete the phone number 6 months after graduation, or right away when the student withdraws consent?
