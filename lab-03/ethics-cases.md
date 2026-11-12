@@ -14,6 +14,7 @@ Version 1.0 · 2026-11-12 · Leads: A = Yam Soksopheakna, B = Ou Pechly
 
 **Message sent:** 
 Thank you for your interest in recruiting students for the Robotics Club. Our system is used to track attendance for managing events and preparing activity reports. It is not meant to share students attendance records with other clubs. To protect student privacy I cannot provide a report that includes names or detailed attendance history. I recommend promoting Robotics Club activities through the event list so that all students can see the opportunities and choose whether to join. If you need a summary report, without information I can talk to the administrator about your request first.
+
 **Preventive change:** Add role-based access control so club leaders can only view information about their own clubs and events. Block access to individual attendance records from other clubs. Add a permission check and tests to ensure cross-club attendance data cannot be viewed by unauthorized users. Issue #TODO, label `ethics`.
 
 ## Scenario B: "Don't mention it in the demo"
