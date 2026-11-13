@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Crayon Munchers, ITC Club Hub contributors
+
 #ifndef EVENT_CSV_HPP
 #define EVENT_CSV_HPP
 

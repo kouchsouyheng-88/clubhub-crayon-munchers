@@ -23,3 +23,7 @@ Cambodia. Course project, Introduction to Software Engineering.
 ## Build
     cmake -S . -B build
     cmake --build build
+
+## Licence
+
+The Club Hub source code is prepared under the [MIT License](LICENSE). The team chose it for its simplicity and broad reuse; the [decision record](lab-03/licence-decision.md) has placeholders for contributor responses. [Third-party notices](THIRD_PARTY_NOTICES.md) credit GoogleTest, which is used only for tests.

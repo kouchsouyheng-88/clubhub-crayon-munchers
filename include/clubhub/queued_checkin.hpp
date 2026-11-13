@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 Crayon Munchers, ITC Club Hub contributors
+
 #pragma once
 // Lab 02 challenge, version 1.0, 2026-11-04.
 
