@@ -21,9 +21,10 @@ Version 1.0 · 2026-11-12 · Lead: Buntong Anupheap
 | Kouch Souyheng | Agreed | 13/11/2026 |
 | Yam Soksopheakna | Agreed | 12/11/2026 |
 | Buntong Anupheap | Agreed | 12/11/2026 |
-| Ou Pechly | Agree | 13/11/2026 |
+| Ou Pechly | Agreed | 13/11/2026 |
 
 ## Sources checked
+
 
 - [MIT](https://choosealicense.com/licenses/mit/), [Apache-2.0](https://choosealicense.com/licenses/apache-2.0/) and [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/) summaries and licence texts.
 - [GoogleTest v1.15.2 licence](https://github.com/google/googletest/blob/v1.15.2/LICENSE) and the version pinned in `CMakeLists.txt`.
