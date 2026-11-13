@@ -18,7 +18,7 @@ Version 1.0 · 2026-11-12 · Lead: Buntong Anupheap
 | Member | Agrees to MIT | Date |
 |--------|----------------|------|
 | Ung Phearakleap | Agreed | 12/11/2026 |
-| Kouch Souyheng | Pending | — |
+| Kouch Souyheng | Agreed | 13/11/2026 |
 | Yam Soksopheakna | Agreed | 12/11/2026 |
 | Buntong Anupheap | Yay | 12/11/2026 |
 | Ou Pechly | Pending | — |
