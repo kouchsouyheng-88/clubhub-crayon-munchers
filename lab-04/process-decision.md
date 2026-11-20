@@ -65,7 +65,7 @@ flowchart TD
 
 ## Approvals
 - Ung Phearakleap, 20/11/2026: approved
-- <member>, <date>: approved
+- Yam Soksopheakna, 20/11/2026: approved
 - <member>, <date>: approved
 - <member>, <date>: approved
 - <member>, <date>: approved
