@@ -1,0 +1,15 @@
+flowchart TD
+    subgraph PRE[Before Sprint 1 · fixed by the course schedule]
+        A[Requirements and user stories · weeks 5-6 · Product Owner] --> B[UML models · week 7 · Developers]
+        B --> C[Checkpoint 1 · week 8 · whole team and TA]
+    end
+    C --> D[(Product backlog refined · Product Owner)]
+    D --> E[Sprint planning · whole team · weeks 9 and 11]
+    E --> F[Develop and test · Developers · weeks 9-10 and 11-12]
+    F --> G[Sprint review · client and Product Owner]
+    G --> H[Retrospective · Scrum Master]
+    H --> Q{Another sprint?}
+    Q -- yes --> E
+    Q -- no --> I[Hardening · week 13 · whole team]
+    I --> J[Submission and demo · week 14 · Product Owner]
+    G -. new or changed stories .-> D
