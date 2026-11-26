@@ -5,7 +5,7 @@
 |----------------------------------|------|-----------------------------------------------------------------------------|
 | fundamental-activities.md        | 1    | The four activities (specification, design and implementation, validation, evolution) for Club Hub with leads, weeks, artifacts and ISO/IEC/IEEE 12207 processes |
 | scores/*.md                      | 2    | Individual process scores, one file per member                              |
-| process-comparsion.md            | 2    | Team comparison of waterfall, incremental and Scrum-style with weights and weighted scores |
+| process-comparison.md            | 2    | Team comparison of waterfall, incremental and Scrum-style with weights and weighted scores |
 | process-decision.md, process.mmd | 3    | PDR-001 (Scrum-style iterative development) and the process diagram        |
 | iteration-plan.md                | 4    | Gantt chart for weeks 5-14 and sprint goals                                 |
 | reuse-inventory.md               | 5    | Make-or-reuse table, licence check, maintenance evidence and build verification |

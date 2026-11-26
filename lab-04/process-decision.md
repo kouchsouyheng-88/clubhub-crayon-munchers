@@ -12,13 +12,13 @@ Date: 2026-11-20        Deciders: Ung Phearakleap, Yam Soksopheakna, Ou Pechly, 
 ## Options considered
 | Option                       | Weighted score (Task 2) | Pros | Cons |
 |------------------------------|------------------------:|------|------|
-| A. Waterfall                 | 2.00                    | 	Familiar to the team, clear documents and phases | Nothing works until late and the client sees the product only at the end, so a wrong rule is found in week 14 |
-| B. Incremental delivery      | 3.16                    | Small step from plan-driven work, a demonstrable core after the first increment | Requirements are mostly fixed per increment, so changes after a review are awkward to absorb |
-| C. Scrum-style iterative     | 3.40                    | Reviews every two weeks expose misunderstandings early, backlog absorbs changing requirements | Sprints and roles are new to the team, only two sprints leave little room to recover |
+| A. Waterfall                 | 2.15                    | 	Familiar to the team, clear documents and phases | Nothing works until late and the client sees the product only at the end, so a wrong rule is found in week 14 |
+| B. Incremental delivery      | 4.00                    | Small step from plan-driven work, a demonstrable core after the first increment | Requirements are mostly fixed per increment, so changes after a review are awkward to absorb |
+| C. Scrum-style iterative     | 4.15                    | Reviews every two weeks expose misunderstandings early, backlog absorbs changing requirements | Sprints and roles are new to the team, only two sprints leave little room to recover |
 | D. No defined process        | n/a                     | No planning overhead | Five people with 6 h a week each, no shared plan, work may be duplicated, rules are not tested and the week 8 and 14 milestones are at risk |
 
 ## Decision
-We will use Scrum-style iterative development: two sprints of two weeks (weeks 9-10 and 11-12), each with planning, development and testing, a review with the client and a retrospective, working from a product backlog that the Product Owner keeps up to date. This is the Task 2 winner, and the sensitivity check in Task 2 did not change the winner, so the decision follows our own scoring. Weeks 5-8 and week 14 are fixed by the course schedule and are not a different process: in weeks 5-8 we build and refine the product backlog that Sprint 1 starts from, and week 13 is a short hardening week before the demo.
+We will use Scrum-style iterative development: two sprints of two weeks (weeks 9-10 and 11-12), each with planning, development and testing, a review with the client and a retrospective, working from a product backlog that the Product Owner keeps up to date. The team-approved [Task 2 comparison](process-comparison.md) ranks Scrum-style highest under both the original and revised weights; the weights, tied-mode selections and discussion outcomes were confirmed on 2026-11-26. The course schedule allocates weeks 5-8 to preparation and week 14 to submission. During weeks 5-8, the team develops and refines the backlog for Sprint 1; week 13 is reserved for hardening before the demonstration.
 
 | Element | Reference practice | Our tailoring | Reason |
 |---------|--------------------|---------------|--------|
