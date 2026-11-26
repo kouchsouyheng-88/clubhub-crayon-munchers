@@ -45,5 +45,28 @@ cmake -S . -B build && cmake --build build && ctest --test-dir build --output-on
 Output:
 
 ```
-TODO paste your real CTest output here
+      Start  1: CsvSmokeTest.ReadsEventTitlesAndCapacities
+ 1/10 Test  #1: CsvSmokeTest.ReadsEventTitlesAndCapacities ........   Passed    0.00 sec
+      Start  2: StudentPrivacy.RedactedHidesPersonalData
+ 2/10 Test  #2: StudentPrivacy.RedactedHidesPersonalData ..........   Passed    0.00 sec
+      Start  3: StudentPrivacy.OptionalConsentsStartOff
+ 3/10 Test  #3: StudentPrivacy.OptionalConsentsStartOff ...........   Passed    0.00 sec
+      Start  4: StudentPrivacy.WithdrawingSmsConsentErasesPhone
+ 4/10 Test  #4: StudentPrivacy.WithdrawingSmsConsentErasesPhone ...   Passed    0.00 sec
+      Start  5: StudentPrivacy.RejectsEmailWithoutAt
+ 5/10 Test  #5: StudentPrivacy.RejectsEmailWithoutAt ..............   Passed    0.00 sec
+      Start  6: StudentPrivacy.RejectsPhoneWithLetters
+ 6/10 Test  #6: StudentPrivacy.RejectsPhoneWithLetters ............   Passed    0.00 sec
+      Start  7: StudentPrivacy.MaskIdHidesShortIdsCompletely
+ 7/10 Test  #7: StudentPrivacy.MaskIdHidesShortIdsCompletely ......   Passed    0.00 sec
+      Start  8: ConsoleOutputTest.StatusIsReadableWithoutColour
+ 8/10 Test  #8: ConsoleOutputTest.StatusIsReadableWithoutColour ...   Passed    0.00 sec
+      Start  9: ConsoleOutputTest.ColourOnlyRepeatsTheWord
+ 9/10 Test  #9: ConsoleOutputTest.ColourOnlyRepeatsTheWord ........   Passed    0.00 sec
+      Start 10: ConsoleOutputTest.ErrorSaysWhatWhyAndNextStep
+10/10 Test #10: ConsoleOutputTest.ErrorSaysWhatWhyAndNextStep .....   Passed    0.00 sec
+
+100% tests passed out of 10
+
+Total Test time (real) =   0.02 sec
 ```

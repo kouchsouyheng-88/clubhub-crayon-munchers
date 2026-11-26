@@ -1,6 +1,6 @@
 # PDR-001 · Development process for ITC Club Hub
 Status: Proposed | Accepted | Superseded by PDR-00_
-Date: 2026-11-20        Deciders: <all members>
+Date: 2026-11-20        Deciders: Ung Phearakleap, Yam Soksopheakna, Ou Pechly, Kouch Souyheng, Buntong Anupheap
 
 ## Context
 1. The team consists of 5 members in which the scrum master rotates each sprint. (source: lab01/team-charter.md)
